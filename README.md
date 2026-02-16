@@ -28,7 +28,7 @@ The system calculates optimal travel routes by combining multiple modes of trans
 
 ## 🛠 Tech Stack
 - **Language:** Java (JDK 17+)
-- **UI Framework:** Java Swing / AWT
+- **UI Framework:** JavaFX
 - **Data Format:** JSON
 - **Concepts:** OOP, Graph Theory, Matrix Operations, Event-Driven Programming
 
