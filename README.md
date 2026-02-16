@@ -15,7 +15,7 @@ The system calculates optimal travel routes by combining multiple modes of trans
 ## 🚀 Key Features
 ### 🗺️ Route Planning
 - **Multi-Modal Transport:** Seamlessly combines bus and rail networks to find the best connection.
-- **Optimization Criteria:** Users can prioritize **Fastest Route** vs. **Cheapest Route**.
+- **Optimization Criteria:** Users can prioritize **Fastest Route**, **Cheapest Route** or the **Least Transfers**.
 - **Top 5 Alternatives:** Displays the best 5 route options with detailed breakdowns (transfers, wait times).
 
 ### 🎫 Booking & Simulation
