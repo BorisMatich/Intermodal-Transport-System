@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="616.0"
+            prefWidth="1114.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.projekat2025.controller.MainController">
+    <top>
+        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0" BorderPane.alignment="CENTER">
+            <padding>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+            </padding>
+            <children>
+                <Label text="Polazište:"/>
+                <Label fx:id="lblStart" text="-">
+                    <HBox.margin>
+                        <Insets left="7.5"/>
+                    </HBox.margin>
+                </Label>
+                <Label text="Odredište:">
+                    <HBox.margin>
+                        <Insets left="15.0"/>
+                    </HBox.margin>
+                </Label>
+                <Label fx:id="lblEnd" text="-">
+                    <HBox.margin>
+                        <Insets left="7.5"/>
+                    </HBox.margin>
+                </Label>
+                <Label text="Vrijeme:">
+                    <HBox.margin>
+                        <Insets left="7.5"/>
+                    </HBox.margin>
+                </Label>
+                <TextField fx:id="timeField" prefHeight="26.0" prefWidth="80.0"/>
+                <Label text="Kriterijum:"/>
+                <ComboBox fx:id="criteriaBox" prefHeight="26.0" prefWidth="132.0"/>
+                <Button fx:id="searchBtn" mnemonicParsing="false" onAction="#onSearch" text="Traži"/>
+                <Button fx:id="resetBtn" mnemonicParsing="false" onAction="#onReset" text="Resetuj"/>
+            </children>
+        </HBox>
+    </top>
+    <center>
+        <Pane fx:id="graphPane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #f0f0f0;"
+              BorderPane.alignment="CENTER"/>
+    </center>
+    <bottom>
+        <VBox fx:id="resultsBox" prefHeight="112.0" prefWidth="1114.0" BorderPane.alignment="CENTER"/>
+    </bottom>
+</BorderPane>

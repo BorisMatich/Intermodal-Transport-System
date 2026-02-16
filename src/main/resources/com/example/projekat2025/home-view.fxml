@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="30" alignment="CENTER"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.projekat2025.controller.HomeController">
+
+    <Label text="TRANSPORT SYSTEM" style="-fx-font-size: 24; -fx-font-weight: bold"/>
+
+    <VBox spacing="10" alignment="CENTER">
+        <Label text="Ukupno prodatih karata:"/>
+        <Label fx:id="lblTotalTickets" text="0" style="-fx-font-size: 20; -fx-font-weight: bold"/>
+        <Label text="Ukupan prihod:"/>
+        <Label fx:id="lblTotalRevenue" text="0.00 KM" style="-fx-font-size: 20; -fx-font-weight: bold"/>
+    </VBox>
+
+    <Button fx:id="btnStart" text="Pokreni aplikaciju" onAction="#onStartApp"/>
+</VBox>

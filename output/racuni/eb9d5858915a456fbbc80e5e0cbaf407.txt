@@ -1,0 +1,5 @@
+=== RUTA ===
+A_0_0 → A_1_0 [BUS] 09:30 - 10:29
+A_1_0 → A_1_1 [BUS] 15:15 - 17:55
+Ukupna cijena: 932.0 KM
+Ukupno trajanje: 9h 55min

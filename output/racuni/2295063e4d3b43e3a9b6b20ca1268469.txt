@@ -1,0 +1,5 @@
+=== RUTA ===
+Z_7_0 → Z_8_0 [TRAIN] 09:30 - 12:21
+A_8_0 → A_8_1 [BUS] 14:30 - 15:18
+Ukupna cijena: 837.0 KM
+Ukupno trajanje: 7h 18min

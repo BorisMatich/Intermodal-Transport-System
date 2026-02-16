@@ -1,0 +1,4 @@
+=== RUTA ===
+Z_0_0 → Z_1_0 [TRAIN] 15:30 - 18:01
+Ukupna cijena: 115.0 KM
+Ukupno trajanje: 10h 1min
